@@ -1,0 +1,138 @@
+html {
+  background: url(../images/site/checkerboard.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  overflow: scroll;
+ }
+.flexC{
+ display:flex;
+ flex-wrap: wrap;
+ background-color: white;
+ border: 3px solid #a6cbeb;
+ width: 95%;
+ margin: auto;
+ }
+ #wrapper{
+   width: 100%;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+}
+h1{
+  font: bold 20px sans-serif, "Poppins";
+  color:black;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content:flex-start; 
+  background-color: #3a3a3a;
+  /* color: #ffffff; */
+}
+.navTable{
+  display: table;
+  margin: 0 auto;
+}
+nav a{
+color: #ffffff;
+}
+.nav a:hover{
+  background-color: #275c8a;
+}
+ul#horizontal-list{
+  list-style: none;
+}
+ul#horizontal-list li{
+  display: inline;
+  padding: 0 1.5em;
+}
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+#inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+.box {
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  border: 2px solid #3a3a3a;
+  background-color: #4c96d7;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+footer{
+  border-top: 1px solid #3a3a3a;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 1%;
+}
+.toptext {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+p.b{
+  font: 16px sans-serif, "Poppins";
+  color: #275c8a;
+}
+/* input:required:invalid, input:focus:invalid {
+  background-image: url(/images/invalid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+ }
+  input:required:valid {
+  background-image: url(/images/valid.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  } */
+@media (max-width: 600px) {
+  html{
+  background-color : #ffffff;}
+  .flex-direction{
+    flex-direction:column;
+    }
+  .grid{
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  } 
+  .grid-container-right{
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+  } 
+}
