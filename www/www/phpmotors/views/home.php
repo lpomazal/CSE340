@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="/phpmotors/css/style.css" type="text/css" rel="stylesheet" media="screen">
     <title>Content Title | PHP Motors</title>
 </head>
 
@@ -23,9 +23,9 @@
             <main>
                 <div id="boxMain">
                     <div class="container">
-                        <img src="./images/delorean.jpg" alt="delorian" style="width:100%;" />
+                        <img src="/phpmotors/images/delorean.jpg" alt="delorian" style="width:100%;" />
                         <div class="toptext">
-                            <p class="a">Welcome to PHP Motors!</p>
+                            <h1>Welcome to PHP Motors!</h1>
                             <p class="b"><br><br>DMC Delorian<br>3 Cup Holders<br>Superman Doors<br>Fuzzy Dice!</p>
                         </div>
                     </div>
@@ -36,25 +36,25 @@
                             <div class="box">
                                 <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor" />
                             </div>
-                            <a href="">Flux Capacitor</a>
+                            <a href=".">Flux Capacitor</a>
                         </div>
                         <div class="box-container">
                             <div class="box">
                                 <img src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals" />
                             </div>
-                            <a href="">Flame Decals</a>
+                            <a href=".">Flame Decals</a>
                         </div>
                         <div class="box-container">
                             <div class="box">
                                 <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Stickers" />
                             </div>
-                            <a href="">Bumper Stickers</a>
+                            <a href=".">Bumper Stickers</a>
                         </div>
                         <div class="box-container">
                             <div class="box">
                                 <img src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps" />
                             </div>
-                            <a href="">Hub Caps</a>
+                            <a href=".">Hub Caps</a>
                         </div>
                     </div>
                     <div class="grid-container-right">
@@ -75,6 +75,7 @@
                             <li>
                                 <p> "80's living and I love it" (5/5)</p>
                             </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -84,7 +85,7 @@
                 <?php require $_SERVER['DOCUMENT_ROOT'].'/phpmotors/snippets/footer.php'; ?>
             </footer>
         </div>
-        <!-Wrapper ends->
+        <!--Wrapper ends-->
     </div>
 </body>
 

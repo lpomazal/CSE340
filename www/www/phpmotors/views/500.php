@@ -15,8 +15,7 @@
             <?php require $_SERVER['DOCUMENT_ROOT'].'/phpmotors/snippets/header.php'; ?>
         </header>
         <nav>
-            <?php require $_SERVER['DOCUMENT_ROOT'].'/phpmotors/snippets/nav.php'; ?>
-
+            <?php echo $navList; ?>
         </nav>
         <main>
             <h1>Server Error</h1>
