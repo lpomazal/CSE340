@@ -55,7 +55,7 @@
                             required pattern="(?=^.{8,}$)(?=.*\d)(?=.*\W+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
                             <?php if(isset($clientPassword))?> required></label><br>
 
-                    <button type="submit">Registration</button>
+                    <button type="submit" name="submit" id="regbtn" value="Register">Registration</button>
 
                     <!-- Add the action name - value pair -->
                     <input type="hidden" name="action" value="register">

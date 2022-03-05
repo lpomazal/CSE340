@@ -1,7 +1,5 @@
 <?php
 // Accounts Model
-
-
 // Function for site Registration
 
 function regClient($clientFirstname, $clientLastname, $clientEmail, $clientPassword){
@@ -28,8 +26,7 @@ function regClient($clientFirstname, $clientLastname, $clientEmail, $clientPassw
  // Return the indication of success (rows changed)
  return $rowsChanged;
 }
-// getting the accounts model
-//require_once '/model/accounts-model.php';
+
 // Check for an existing email address
 function checkExistingEmail($clientEmail) {
     $db =  phpmotorsConnect();

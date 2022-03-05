@@ -17,5 +17,5 @@ try{
    header('Location: /phpmotors/views/500.php');
 }
 }
-phpmotorsConnect();
+// phpmotorsConnect();
 ?>
